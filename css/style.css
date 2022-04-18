@@ -66,6 +66,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding-top: 14px;
+    padding-bottom: 14px;
     
 }
 
@@ -114,3 +115,46 @@ a {
     padding: 15px 30px;
 }
 
+.hero__content {
+    margin-top: 56px;
+    display: flex;
+}
+
+.hero__info {
+    margin-right: 184px;
+    margin-top: 313px;
+}
+
+.hero__desc {
+    font-style: light;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.btn {
+    border: 2px solid #475F45;
+    padding: 15px 30px;
+}
+
+.btn--active {
+    border: 2px solid #475F45;
+    color: #ffffff;
+    background-color: #475F45;
+    padding: 15px 30px;
+}
+
+.hero__img-block {
+    border-radius: 500px 500px 0px 0px;
+    border: 4px solid #343D33;
+    padding: 6px;
+}
+
+.hero__img-wrap {
+    border-radius: 500px 500px 0px 0px;
+    overflow: hidden;
+}
+
+.about section {
+    
+    background-color: #343D33;
+}
