@@ -1,4 +1,4 @@
-{
+*{
     box-sizing: border-box;
 }
 
@@ -62,7 +62,7 @@ a {
 }
 
 
-.header__content{
+.header__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,80 +70,80 @@ a {
     margin-top: 15px;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-.logo__text{
+.logo__text {
     margin-left: 14px;
 }
 
-.logo__title{
+.logo__title {
     font-weight: 500;
     font-size: 23px;
     line-height: 27px;
 }
 
-.logo__subtitle{
+.logo__subtitle {
     font-style: italic;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
 }
 
-.logo__img{
+.logo__img {
     width: 59px;
     height: 59px;
     overflow: hidden;
     object-fit: cover;
 }
 
-.logo__pic{
+.logo__pic {
     height: 100%;
     width: 100%;
     
 }
 
 
-.nav{
+.nav {
     width: 796px;
     height: 46px;
     
 }
 
-.nav__list{
+.nav__list {
     display: flex;
     align-items: baseline;
 }
 
-.nav__item{
+.nav__item {
     margin-left: 40px;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
 }
 
-.nav__item--border{
+.nav__item--border {
     border: 2px solid #475F45;
     padding: 15px 30px;
 }
 
 
 
-.hero__content{
+.hero__content {
     display: flex;
     align-items: center;
     margin-top: 56px;
 }
 
-.hero__info-content{
+.hero__info-content {
     width: 528px;
     height: 306px;
     margin-right: 184px;
 }
 
-.hero__desc{
+.hero__desc {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300 ;
@@ -151,23 +151,35 @@ a {
     line-height: 150%;
 }
 
-.hero__btns{
+.hero__btns {
     margin-top: 32px;
 }
 
-.btn{
+.btn {
     margin-right: 16px;
-    border: 1px solid #475F45;
+    border: 2px solid #475F45;
     padding: 20px 40px;
 }
 
-.btn--active{
+.btn--active {
     background: #475F45;
     color: #ffffff;
     padding: 20px 40px;
 }
 
-.hero__img-block{
+.btn--white {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 2px solid #ffffff;
+}
+
+.hero__img-block {
     border: 4px solid #343D33;
     border-radius: 500px 500px 0px 0px;
     padding: 6px;
@@ -175,7 +187,7 @@ a {
     height: 660px;
 }
 
-.hero__img-wrap{
+.hero__img-wrap {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -183,18 +195,18 @@ a {
     border-radius: 500px 500px 0px 0px;
 }
 
-.hero__img{
+.hero__img {
     width: 100%;
     height: 100%;
     object-fit: cover;  
 }
 
-.about{
+.about {
     background-color: #343D33;
     padding: 96px 0px;
 }
 
-.about__container{
+.about__container {
     display: flex;
     flex-wrap: wrap;
     max-width: 1060px;
@@ -202,10 +214,14 @@ a {
 
 
 
-.about__desc{
+.about__desc {
     color: #ffffff;
     width: 417px;
     margin-left: 80px;
+}
+
+.about__info {
+    padding-bottom: 32px;
 }
 
 .about__top-img-wrap{
@@ -248,10 +264,6 @@ a {
     
 }
 
-
-
-
-
 .news__subtitle {
     font-family: 'Libre Baskerville';
     font-style: normal;
@@ -291,10 +303,10 @@ a {
     background-size: contain;
 }
 
-
 .news__content {
     display: flex;
 }
+
 .news__item {
     display: flex;
     margin-bottom: 41px;
@@ -352,6 +364,7 @@ a {
 
 .footer{
     background-color: #414840;
+    min-height: 245px;
 }
 
 
@@ -363,6 +376,7 @@ a {
 .footer__column{
     margin-top: 48px;
     color: #ffffff;
+    padding-bottom: 40px;
 }
 
 .footer__nav-item{
@@ -370,7 +384,8 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 16.41px;
+    margin: 10px 0;
 }
 
 .footer__nav-link{
@@ -384,6 +399,11 @@ a {
 
 .footer__info{
     margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 .logo__img{
@@ -433,6 +453,11 @@ a {
 }
 
 .footer__bottom{
-    width: 1400px;
+    width: 100%;
     height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #343D33;
+    color: #ffffff;
 }
